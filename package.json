@@ -1,0 +1,38 @@
+{
+	"name": "@serenityjs/bedrock-data",
+	"version": "0.0.1",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"eslint:fix": "eslint packages --ext mjs,js,ts --fix",
+		"eslint:lint": "eslint packages --ext mjs,js,ts",
+		"eslint:check": "eslint --ext .ts packages"
+	},
+	"repository": "https://github.com/SerenityJS/data.git",
+	"author": "PMK744 <paytonmk744@outlook.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"eslint": "^8.54.0",
+		"eslint-config-neon": "^0.1.57",
+		"eslint-formatter-pretty": "^6.0.0",
+		"prettier": "^3.1.0",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.3.2"
+	},
+	"packageManager": "yarn@1.22.21",
+	"engines": {
+		"node": ">=18.0.0",
+		"yarn": ">=1.0.0",
+		"npm": "please use yarn instead of npm"
+	},
+	"typings": "./dist/index.d.ts",
+	"module": "./dist/index.js",
+	"exports": {
+		"import": "./dist/index.js",
+		"require": "./dist/index.js"
+	},
+	"files": [
+		"dist"
+	]
+}
