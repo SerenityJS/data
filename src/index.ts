@@ -1,2 +1,2 @@
-export * from './nbt/index.js';
-export * from './bin/index.js';
+export * from './nbt';
+export * from './bin';

@@ -2,7 +2,7 @@
 	"name": "@serenityjs/bedrock-data",
 	"version": "0.0.7",
 	"main": "index.js",
-	"type": "module",
+	"type": "commonjs",
 	"scripts": {
 		"build": "tsc",
 		"eslint:fix": "eslint packages --ext mjs,js,ts --fix",
